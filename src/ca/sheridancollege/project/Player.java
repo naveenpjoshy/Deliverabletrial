@@ -30,8 +30,10 @@ public class Player{
              
         for (int a=0; a<gameNum+3; a++)
         {
+            
         playerOneCards[a] = d.drawFromDeck(); 
         playerTwoCards[a] = d.drawFromDeck(); 
+        
         }
     }
 }
